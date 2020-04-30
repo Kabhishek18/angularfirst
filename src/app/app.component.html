@@ -4,46 +4,17 @@
     <div class="bottom-border wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;"></div>
     <div class="left-border wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;"></div>
 </div>
-
 <div id="wrapper">
 
-    <app-header></app-header>
+	<app-header></app-header> 
+		<!--Main Content Area-->
 
-    <!--Main Content Area-->
-    <main id="content">
+		<main id="content">
+	
+			<router-outlet></router-outlet>
+	
+		</main>
+		<!--End Main Content Area-->
 
-        <!--Introduction-->
-          <app-intro></app-intro>
-        <!--End of Introduction-->
-
-
-        <!--Gallery-->
-          <app-gallery></app-gallery>
-        <!--End of Gallery-->
-
-
-        <!--Content Section-->
-          <app-content></app-content>
-        <!--End of Content Section-->
-
-        <!--Testimonials-->
-          <app-testimonial></app-testimonial>
-        <!--End of Testimonials-->
-
-        <!--Clients-->
-          <app-client></app-client>
-        <!--End of Clients-->
-
-        <!--Pricing Tables-->
-          <app-pricing></app-pricing>
-        <!--End of Pricing Tables-->
-
-    </main>
-    <!--End Main Content Area-->
-
-
-    <!--Footer-->
-        <app-footer></app-footer>
-    <!--End of Footer-->
-
+	<app-footer></app-footer>
 </div>
