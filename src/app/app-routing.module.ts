@@ -12,6 +12,7 @@ import { BlogComponent } from './blog/blog.component';
 import { PostComponent } from './post/post.component';
 import { ArticleComponent } from './article/article.component';
 import { NotfoundComponent } from './notfound/notfound.component';
+import { NewsComponent } from './news/news.component';
 
 const routes: Routes = [
 { path: '',   redirectTo: '/Home', pathMatch: 'full' },
@@ -24,8 +25,10 @@ const routes: Routes = [
   { path: 'Pricing', component: PricingComponent },
   { path: 'Blog', component: BlogComponent },
   { path: 'Article/:id', component: ArticleComponent },
+  {path:'News', component: NewsComponent},
   { path: '404', component: NotfoundComponent },
-  { path: '**', redirectTo:'/404' }
+  { path: '**', redirectTo:'/404' },
+  
 
   ];
 
