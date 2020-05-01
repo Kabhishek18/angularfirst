@@ -8,7 +8,7 @@ import { ConfigService } from '../config.service';
 })
 export class BannerComponent implements OnInit {
 
-  header = {};
+  header:any;
 	
   constructor(private config: ConfigService) { }
 

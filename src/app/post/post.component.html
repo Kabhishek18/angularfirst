@@ -1,0 +1,15 @@
+     
+
+       <!--Pricing Block-->
+       <div class="pricing-block-content">
+        <h3>{{post.title | uppercase}}</h3>
+        <p class="pricing-sub">By {{post.author}} | {{post.publishdate | date:'dd-mm-yyyy'}} </p>
+        <div class="pricing">
+            <img src="{{post.image}}" alt="image">
+        </div>
+        <ul>
+            {{post.excert}}
+        </ul>
+        <a routerLink="/Article/{{post.id}}" class="">Read More</a>
+    </div>
+<!--End Pricing Block-->

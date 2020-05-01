@@ -14,6 +14,10 @@ import { ClientComponent } from './client/client.component';
 import { PricingComponent } from './pricing/pricing.component';
 import { SocialComponent } from './social/social.component';
 import { ConfigService } from './config.service';
+import { ArticleComponent } from './article/article.component';
+import { BlogComponent } from './blog/blog.component';
+import { PostComponent } from './post/post.component';
+import { NotfoundComponent } from './notfound/notfound.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +31,11 @@ import { ConfigService } from './config.service';
     TestimonialComponent,
     ClientComponent,
     PricingComponent,
-    SocialComponent
+    SocialComponent,
+    ArticleComponent,
+    BlogComponent,
+    PostComponent,
+    NotfoundComponent
   ],
   imports: [
     BrowserModule,
